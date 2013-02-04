@@ -4,3 +4,12 @@
 [submodule "bundle/YankRing"]
 	path = bundle/YankRing
 	url = git://github.com/vim-scripts/YankRing.vim.git
+[submodule "bundle/jslint"]
+	path = bundle/jslint
+	url = git://github.com/hallettj/jslint.vim.git
+[submodule "bundle/vim-javascript"]
+	path = bundle/vim-javascript
+	url = git://github.com/pangloss/vim-javascript.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = git://github.com/scrooloose/syntastic.git

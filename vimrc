@@ -78,6 +78,11 @@ map <leader>d :call ShowFileInNERDTree()<cr>
 "" Yankring
 let g:yankring_history_file = '.yankring_history'
 
+"" vim-javascript
+let g:html_indent_inctags = "html,body,head,tbody"
+let g:html_indent_script1 = "inc"
+let g:html_indent_style1 = "inc"
+
 "" Pane switching shortcuts
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
