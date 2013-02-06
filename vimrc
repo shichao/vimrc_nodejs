@@ -83,6 +83,16 @@ let g:html_indent_inctags = "html,body,head,tbody"
 let g:html_indent_script1 = "inc"
 let g:html_indent_style1 = "inc"
 
+"" git-vim
+nnoremap <leader>gd :GitDiff<cr>
+nnoremap <leader>gD :GitDiff -cached<cr>
+nnoremap <leader>gs :GitStatus<cr>
+nnoremap <leader>gl :GitLog<cr>
+nnoremap <leader>ga :GitAdd<cr>
+nnoremap <leader>gA :GitAdd <cfile><cr>
+nnoremap <leader>gc :GitCommit<cr>
+nnoremap <leader>gb :GitBlame<cr>
+
 "" Pane switching shortcuts
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
