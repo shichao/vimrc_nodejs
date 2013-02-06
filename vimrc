@@ -93,6 +93,10 @@ nnoremap <leader>gA :GitAdd <cfile><cr>
 nnoremap <leader>gc :GitCommit<cr>
 nnoremap <leader>gb :GitBlame<cr>
 
+"" dictionary
+au FileType javascript setlocal dictionary+=$HOME/.vim/bundle/vim-node/dict/node.dict
+au FileType coffee setlocal dictionary+=$HOME/.vim/bundle/vim-node/dict/node.dict
+
 "" Pane switching shortcuts
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
