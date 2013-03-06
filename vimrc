@@ -123,6 +123,8 @@ else
 	autocmd! bufwritepost _vimrc :source $VIM/_vimrc 	" for windows gvim 
 endif
 
+autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
+
 " Statusline
 set laststatus=2
 set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{CurDir()}%h\ \ \ Line:\ %l/%L:%c  
