@@ -78,6 +78,9 @@ map <leader>d :call ShowFileInNERDTree()<cr>
 "" Yankring
 let g:yankring_history_file = '.yankring_history'
 
+"" Syntastic
+let g:syntastic_javascript_checker = 'jshint'
+
 "" vim-javascript
 let g:html_indent_inctags = "html,body,head,tbody"
 let g:html_indent_script1 = "inc"
